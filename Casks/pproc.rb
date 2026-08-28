@@ -1,13 +1,13 @@
 cask "pproc" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
     url "https://github.com/tackish/pigeonproc/releases/download/v#{version}/PigeonProc-darwin-arm64.tar.gz"
-    sha256 "6764cabeafc4b7e11daa925de45bffb5d4c7eb0e9192fa6e099bcaa143af07fe"
+    sha256 "451946dea73b673b20523faccade8b92f47da2101db7c4308d216d54d5ac41d9"
   end
   on_intel do
     url "https://github.com/tackish/pigeonproc/releases/download/v#{version}/PigeonProc-darwin-x86_64.tar.gz"
-    sha256 "86107cbda091bfa3b61a1ecb8639d971bd54901435e00f17d28ce014916f0f3f"
+    sha256 "8f80e3fc676649e51c97c55b6f2922fdef913199a53c1250732b436ea697e7a1"
   end
 
   name "PigeonProc"
